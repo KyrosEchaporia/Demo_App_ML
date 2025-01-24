@@ -4,7 +4,8 @@ import numpy as np
 
 
 # Load the trained model
-model = tf.keras.models.load_model("ann_model.h5")
+# change model to needed
+model = tf.keras.models.load_model("ann_model_XOR.h5")
 
 
 # Title for the web app
